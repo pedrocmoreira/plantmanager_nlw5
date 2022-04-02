@@ -23,7 +23,6 @@ export function Welcome() {
         navigation.navigate('UserIdentification')
     }
 
-
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.wrapper}>
@@ -63,7 +62,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'space-around',
-        paddingHorizontal: 20
+        paddingHorizontal: 30
     },
     title: {
         fontSize: 28,
